@@ -1,22 +1,303 @@
 <!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Andrew Coutinho — Product, Operations, Strategy, and Leadership Portfolio"
+      content="Andrew Coutinho | Product, Operations, Strategy, and Leadership Portfolio"
     />
-    <title>Andrew Coutinho — Portfolio</title>
+    <title>Andrew Coutinho | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Andrew Coutinho home">
+          <span class="brand-mark"></span>
+          <span>
+            <strong>Andrew Coutinho</strong>
+            <small>ASF Visuals LLC</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Strengths</a>
+          <a href="#differentiators">What Sets Me Apart</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Pittsburgh-based · London-connected · Internationally minded</p>
+            <h1>
+              Building high-impact products, operations, and communities with founder-level ownership.
+            </h1>
+            <p class="hero-description">
+              I’m Andrew Coutinho—an Economics and Africana Studies graduate from the University of Pittsburgh with
+              experience spanning strategy, project leadership, operations, and creative direction. I help teams move
+              from ideas to execution with structure, energy, and measurable outcomes.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#experience">View Experience</a>
+              <a class="btn btn-secondary" href="#projects">See Projects</a>
+              <a class="btn btn-ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal-delay" aria-label="Career focus card">
+            <h2>Career Focus</h2>
+            <ul>
+              <li>Product Management</li>
+              <li>Operations & Program Management</li>
+              <li>Strategy & Partnerships</li>
+              <li>Leadership-Track Opportunities</li>
+            </ul>
+            <p>
+              I bring a rare combination of analytical discipline, stakeholder communication, and creative problem
+              framing—built through entrepreneurship, campus leadership, and multi-team execution.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>A recruiter-facing profile built on execution and range.</h2>
+          </div>
+          <div class="about-card reveal-delay">
+            <p>
+              I operate at the intersection of strategy and delivery. Whether I’m launching initiatives, coordinating
+              stakeholders, or shaping a product concept, my approach centers on clear priorities, thoughtful
+              communication, and disciplined follow-through.
+            </p>
+            <p>
+              From building ASF Visuals LLC to leading organizations across Pittsburgh and beyond, I’ve developed a
+              reputation for turning ambitious ideas into polished outcomes. With strong ties to London and a global
+              outlook, I’m motivated by opportunities where operational excellence and leadership can create outsized
+              impact.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Leadership roles with real ownership and visible results.</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-meta">Founder & Creative Director · ASF Visuals LLC</div>
+              <p>
+                Built and scaled a visual media business serving clients across branding, content strategy, and event
+                storytelling. Led end-to-end operations: client acquisition, scope definition, creative direction,
+                delivery systems, and relationship management.
+              </p>
+            </article>
+
+            <article class="timeline-item reveal-delay">
+              <div class="timeline-meta">Vice Curator · Global Shapers Pittsburgh Hub</div>
+              <p>
+                Supported city-wide leadership programming and cross-sector initiatives. Collaborated with professionals,
+                community leaders, and partners to improve coordination, increase engagement, and deliver high-quality
+                events with strategic purpose.
+              </p>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-meta">Founder / President / Advisor · Fitness & Bodybuilding Club at Pitt</div>
+              <p>
+                Founded and grew a student organization around performance, wellness, and accountability. Drove member
+                recruitment, built leadership pipelines, and designed programming that increased participation and
+                sustained momentum year over year.
+              </p>
+            </article>
+
+            <article class="timeline-item reveal-delay">
+              <div class="timeline-meta">Co-Founder & President · National Collegiate Bodybuilding Organization</div>
+              <p>
+                Co-created a multi-campus platform to connect student leaders nationwide. Defined mission, governance,
+                and growth strategy while establishing partnerships and digital systems to support long-term scale.
+              </p>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-meta">University of Pittsburgh Leadership & Operations Roles</div>
+              <p>
+                Contributed across student engagement, communications, events, and advisory initiatives—consistently
+                trusted to coordinate teams, streamline execution, and represent organizations with professionalism.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects & Impact</p>
+            <h2>Initiatives that combine strategy, operations, and influence.</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="impact-card reveal">
+              <h3>ASF Visuals LLC Growth System</h3>
+              <p>
+                Designed a repeatable pipeline from inbound leads to final delivery, improving consistency, client
+                retention, and project velocity while maintaining premium output quality.
+              </p>
+              <span>Focus: Entrepreneurship · Operations · Client Strategy</span>
+            </article>
+
+            <article class="impact-card reveal-delay">
+              <h3>Leadership Organization Scale-Up</h3>
+              <p>
+                Developed governance frameworks, onboarding processes, and communications rhythms that helped student
+                organizations transition from founder-led efforts into scalable communities.
+              </p>
+              <span>Focus: Program Management · Community Building · Systems</span>
+            </article>
+
+            <article class="impact-card reveal">
+              <h3>Multi-Stakeholder Retreat & Event Coordination</h3>
+              <p>
+                Planned and executed events requiring alignment across speakers, partners, logistics teams, and member
+                groups—delivering high-trust experiences with clear strategic goals.
+              </p>
+              <span>Focus: Cross-Functional Coordination · Execution Excellence</span>
+            </article>
+
+            <article class="impact-card reveal-delay">
+              <h3>Digital Presence & Website Initiatives</h3>
+              <p>
+                Built and refined digital touchpoints to improve credibility, storytelling, and professional brand
+                visibility for projects and organizations.
+              </p>
+              <span>Focus: Product Thinking · Web Development · Positioning</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills & Strengths</p>
+            <h2>Structured capabilities for high-growth teams.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-bucket reveal">
+              <h3>Product / Strategy</h3>
+              <ul>
+                <li>Product thinking</li>
+                <li>Market & user research</li>
+                <li>Strategic planning</li>
+                <li>Partnership development</li>
+              </ul>
+            </article>
+
+            <article class="skill-bucket reveal-delay">
+              <h3>Operations / Project Management</h3>
+              <ul>
+                <li>Cross-functional coordination</li>
+                <li>Project planning & execution</li>
+                <li>Process improvement</li>
+                <li>Event strategy & logistics</li>
+              </ul>
+            </article>
+
+            <article class="skill-bucket reveal">
+              <h3>Leadership / Communication</h3>
+              <ul>
+                <li>Stakeholder management</li>
+                <li>Public speaking</li>
+                <li>Team leadership</li>
+                <li>Executive communication</li>
+              </ul>
+            </article>
+
+            <article class="skill-bucket reveal-delay">
+              <h3>Creative / Technical</h3>
+              <ul>
+                <li>Creative direction</li>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Brand storytelling</li>
+                <li>Photography & drone media</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="differentiators">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What Sets Me Apart</p>
+            <h2>I bring a founder’s pace with a team-first mindset.</h2>
+          </div>
+
+          <div class="pillars reveal-delay">
+            <div>Founder mentality with ownership from idea to execution</div>
+            <div>Cross-disciplinary fluency: business, leadership, and creative</div>
+            <div>Strong communication and professional presence</div>
+            <div>Analytical rigor paired with design-forward thinking</div>
+            <div>International perspective rooted in Pittsburgh and London</div>
+            <div>Community-led leadership with long-term relationship focus</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-panel reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Open to product, operations, strategy, and leadership-track opportunities.</h2>
+          <p>
+            If you're hiring for a role that values initiative, execution, and strong communication, I’d love to
+            connect.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:andrew@example.com">andrew@example.com</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://asfvisuals.com" target="_blank" rel="noreferrer">ASF Visuals LLC</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Andrew Coutinho · Built for professional opportunities.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
